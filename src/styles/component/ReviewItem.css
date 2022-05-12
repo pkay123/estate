@@ -1,0 +1,102 @@
+.app__review-card {
+  margin-top: 3rem;
+  border: none;
+  border-radius: 20px;
+  background-color: var(--colorWhite);
+  box-shadow: 0 0 10px rgba(0 0 0 / 20%);
+  width: 100%;
+}
+
+.app__review-card .img__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -2.5rem;
+}
+
+.app__review-card .img__container img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.top__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.app__review-cardcontent {
+  margin: 1rem;
+}
+
+.top__left {
+  display: flex;
+  flex-direction: column;
+}
+
+.top__left .subtitle {
+  margin-bottom: 0;
+}
+
+.top__right {
+  display: flex;
+  align-items: center;
+}
+
+.top__right .desc {
+  display: flex;
+  align-items: center;
+}
+
+.top__right span {
+  margin-left: 0.3rem;
+}
+
+.center__content {
+  margin: 1.5rem 0px;
+}
+
+.center__content span {
+  color: var(--colorBlue);
+}
+
+.bottom__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bottom__content .subtitle {
+  display: flex;
+  align-items: center;
+  color: var(--colorBlue);
+}
+
+.likes {
+  display: flex;
+  align-items: center;
+}
+
+.likes span {
+  margin-left: 0.3rem;
+}
+
+.heart {
+  display: flex;
+}
+
+.heart .desc {
+  display: flex;
+  align-items: center;
+}
+
+.comment {
+  display: flex;
+  margin-left: 0.5rem;
+}
+
+.comment .desc {
+  display: flex;
+  align-items: center;
+}

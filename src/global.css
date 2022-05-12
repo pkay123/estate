@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap");
+
+:root {
+  --colorSmokeWhite: #fff;
+  --colorNavy: #002233;
+  --colorBlue: #1a5fea;
+  --colorLightGray: #edf2f8;
+
+  --colorWhite: #fff;
+
+  --text-100: #fff;
+  --text-200: #7b7c81;
+  --text-500: #3a3e57;
+
+  --btnBlue: var(--colorBlue);
+  --btnLightGray: var(--colorLightGray);
+  --btnWhite: var(--colorWhite);
+
+  --font-size-300: 0.9rem;
+  --font-size-400: 1rem;
+  --font-size-500: 2.2rem;
+  --font-size-600: 2.5rem;
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.block-title {
+  font-size: var(--font-size-600);
+  color: var(--text-100);
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: var(--font-size-500);
+}
+
+.subtitle {
+  font-size: var(--font-size-400);
+  line-height: 1.3rem;
+}
+
+.desc {
+  font-size: var(--font-size-300);
+}
+
+.app__container {
+  max-width: 70rem;
+  margin: auto;
+  padding: 1rem 2rem;
+}
+
+.btn__white {
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  background-color: var(--colorWhite);
+  font-size: var(--font-size-300);
+  border: none;
+}
+
+.btn__blue {
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  background-color: var(--colorBlue);
+  color: var(--text-100);
+  font-size: var(--font-size-300);
+  border: none;
+}
+
+.btn__gray {
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  background-color: var(--colorLightGray);
+  color: var(--text-100);
+  font-size: var(--font-size-300);
+  border: none;
+}
+
+button:hover {
+  font-weight: 700;
+}
+
+@media (max-width: 65em) {
+  .block-title {
+    font-size: clamp(2rem, 1.81vw, 2.5rem);
+  }
+
+  .title {
+    font-size: clamp(1.8rem, 1.81vw, 2.2rem);
+  }
+  .subtitle {
+    font-size: clamp(0.9rem, 1.81vw, 1rem);
+  }
+}

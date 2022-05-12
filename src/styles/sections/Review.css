@@ -1,0 +1,36 @@
+.app__review {
+  width: 100%;
+  height: 100%;
+  background-color: var(--colorSmokeWhite);
+}
+
+.app__review-header {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+}
+
+.app__review-header .subtitle {
+  width: 50%;
+  color: var(--text-200);
+}
+
+.app__review-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 65em) {
+  .app__review-header .subtitle {
+    width: 100%;
+  }
+}
+
+@media (max-width: 43em) {
+  .app__review-grid {
+    grid-template-columns: 1fr;
+  }
+}

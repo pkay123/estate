@@ -1,0 +1,53 @@
+.app__why-container {
+  border: none;
+  border-radius: 20px;
+  background-color: var(--colorWhite);
+  box-shadow: 0 0 10px rgba(0 0 0 / 20%);
+}
+
+.app__why-container:nth-child(2) {
+  background-color: var(--colorBlue);
+}
+
+.app__why-container:nth-child(2) p {
+  color: var(--colorWhite);
+}
+
+.app__why-container:nth-child(2) .icon__container {
+  background-color: #4987ff;
+}
+
+.container {
+  margin: 1rem 1rem;
+}
+
+.icon__container {
+  background-color: var(--colorLightGray);
+  border-radius: 8px;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.content .subtitle:nth-child(1) {
+  font-weight: 600;
+}
+
+.desc {
+  margin-bottom: 1rem;
+  color: var(--text-200);
+}
+
+.read .subtitle {
+  display: flex;
+  align-items: center;
+  color: var(--colorBlue);
+}
